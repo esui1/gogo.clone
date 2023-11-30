@@ -60,6 +60,8 @@ body {
 
 .l-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .l-header-logo {
@@ -72,7 +74,7 @@ body {
 
 .l-header-weather {
   width: 270px;
-  flex: 1;
+  display: flex;
 }
 
 .l-header-bar {
@@ -96,9 +98,13 @@ body {
     flex: none;
   }
 }
+.hmm {
+  display: flex;
+}
 
 .l-featured {
   margin-bottom: 20px;
+  display: flex;
 }
 
 .l-subfeatured {
@@ -282,15 +288,16 @@ footer {
 }
 .lheader {
   font-family: Helvetica, sans-serif;
-  font: 10px;
-  border: 1px;
-  margin-top: 5px;
+  font-size: 13px;
   display: inline-block;
   color: #eee;
+  grid-column-start: 1;
+  grid-column-end: 3;
   font-display: inline-block;
 }
 .l-header-weather {
   margin-top: 20px;
+  gap: 25px;
 }
 .black {
   background-color: white;
@@ -309,9 +316,22 @@ footer {
 }
 .zuraag {
   margin-right: 0px 0px 0px 30px;
-  width: 700px;
-  height: auto;
+  width: 550px;
+  height: 360px;
   border-radius: 10px;
   padding-bottom: 20px;
-  padding-left: 550px;
+}
+h3 {
+  color: whitesmoke;
+  margin: 0%;
+}
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.za {
+  color: white;
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 16px;
 }

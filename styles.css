@@ -100,7 +100,7 @@ header {
   float: inline-start;
 }
 .price {
-  margin-top: 500px;
+  margin-top: 400px;
 }
 .destinations-day {
   font-family: "Montserrat", sans-serif;
@@ -138,8 +138,10 @@ li {
   justify-self: right;
   text-align: right;
 }
-.zurag {
-  justify-self: center;
+.zuraag {
+  height: 150px;
+  padding-top: 5px;
+  margin-bottom: 10px;
 }
 .korobka {
   display: inline-block;
